@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+nav{
+    color: white;
+    position: sticky;
+    display: flex;
+    top: 0;
+    left:0;
+    width: 98%;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+.books h1{
+margin: 10px 2px;
+font-size: 30px;
+}
+nav h1:hover{
+    color: aqua;
+}
+nav li a:hover{
+    color: aqua;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+table ,th ,td {
+border: 2px solid grey;
+border-collapse: collapse;
+justify-content: center;
+padding: 5px;
+
+}
+.books{
+    width: 60%;
+    margin: 5% auto;
+    background-color: white;
+    padding: 30px;
+    
+}
+table{
+    width: 100%;
+    margin: 5px 0;
+}
+section h1{
+    margin: 25px 0;
+}
+.register{
+    width: 60%;
+    margin: 6% auto;
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+   
+}
+input{
+    width: 100%;
+    display: inline-block;
+    border: 2px solid grey;
+    margin: 8px 0;
+    padding: 8px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+input[type="submit"]{
+    margin: 12px auto;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+    color: aqua;
+    cursor: pointer;
+}
